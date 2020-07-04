@@ -10,9 +10,10 @@ title = "About"
 showpagemeta = false
 +++
 
-Erlich administers the Hacker Hostel, a tech incubator where Richard, Big Head, Dinesh, and Gilfoyle live and work in exchange for 10 percent of their potential businesses. Erlich clings to his glory days, when he sold aviation start-up Aviato, a move that, at least in his mind, qualifies him to be a svengali lording over other tech nerds. He still drives a car emblazoned with multiple Aviato logos and smokes copious amounts of weed.[1]
+I am an economist pursuing an MSc degree at [University of Brasilia (UnB)](https://unb.br). My research interests include Macroeconomics, Urban & Labor Economics and Public Policy. 
 
-In Fiduciary Duties, a drunk Richard makes Erlich a Pied Piper board member, a decision he later regrets.
+I am currently a Research Assistant at [IPEA](https://www.ipea.gov.br/portal/), working on urban accessibility and mobility inequality in Brazil at the [Access to Opportunities Project](https://www.ipea.gov.br/acessooportunidades/en/).
 
-In Two Days of the Condor, it is revealed that Erlich no longer codes due to carpal tunnel syndrome.
+Moreover, I am the host of the [Ceteris Paribus](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yNmMyMjIwNC9wb2RjYXN0L3Jzcw?ved=0CBgQ7dUFahcKEwj45dy_kqzqAhUAAAAAHQAAAAAQAQ/), a podcast about economics and history. Also, I am an amateur marathoner and triathlete, and [#RStats](https://twitter.com/hashtag/rstats?lang=en) enthusiast."
+
 
