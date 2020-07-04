@@ -1,0 +1,81 @@
+## Basic Configuration
+
+baseurl = "https://lucaswarwar.netlify.app/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Lucas Warwar"
+title = "Lucas Warwar"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Lucas Warwar"
+intro = "Brasilia, Brazil"
+description = "M.Sc. candidate in economics at [UnB](https://unb.br), Research Assistant at [IPEA](https://www.ipea.gov.br/portal/) and podcaster at [Ceteris Paribus](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yNmMyMjIwNC9wb2RjYXN0L3Jzcw?ved=0CBgQ7dUFahcKEwj45dy_kqzqAhUAAAAAHQAAAAAQAQ/) | Macro, Urban and Public Policy | [#RStats](https://twitter.com/hashtag/rstats?lang=en) | Plant-based Marathoner"
+authorimage = "profile.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "lucaswarwar"
+instagram = "lucaswarwar"
+linkedin = "lucaswarwar"
+twitter = "lucaswarwar"
+googlescholar = "<account_id>"
+strava = "lucaswarwar"
+skype = "lucaswarwar"
+whatsapp = "5519999774224"
+email = "lucas.warwar@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    weight = 50
+    identifier = "about"
+    url = "/about/"
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "podcast"
+    identifier = "podcast"
+    weight = 200
+    url = "/podcast/"
+[[menu.main]]
+    name = "research"
+    identifier = "research"
+    weight = 300
+    url = "/research/"
+[[menu.main]]
+    name = "cv"
+    identifier = "cv"
+    weight = 400
+    url = "/cv/"

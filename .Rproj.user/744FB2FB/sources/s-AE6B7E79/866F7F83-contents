@@ -1,0 +1,216 @@
+baseURL = "https://lucaswarwar.netlify.app/"
+languageCode = "en-us"
+theme = "hugo-theme-m10c"
+
+[params]
+    title = "Lucas Warwar"
+    author = "Darshan Baral"
+    description = "Website title"
+    copyright = ""
+
+    [params.theme]
+        # Available themes are 'light', 'dark', and 'pinkish'
+        mainTheme = "light"
+        # setting false below will hide 'aafu by darshan' displayed under the profile pic
+        showAttribute = false
+        singlePage = false
+
+    [params.favicons]
+        use = true
+        metas = '''
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+        <link rel="shortcut icon" href="favicon.ico">
+        '''
+
+    # Profile section
+    [params.profile]
+        name = "Lucas Warwar"
+		tagline = "MSc candidate in Economics"
+		location = "Brasilia, Brazil"
+        photo = "profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+        
+        [[params.social.list]]
+            class = "fas"
+            icon = "fa-envelope"
+            url = "mailto:lucas.warwar@gmail.com"
+            title = "Mail"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-twitter"
+            url = "https://twitter.com/LucasWarwar/"
+            title = "Twitter"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-linkedin-in"
+            url = "https://www.linkedin.com/in/lucaswarwar/"
+            title = "LinkedIn"		
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-github"
+            url = "https://github.com/lucaswarwar/"
+            title = "GitHub"
+        [[params.social.list]]
+            class = "ai"
+            icon = "ai-google-scholar"
+            url = "#"
+            title = "Google Scholar"
+		[[params.social.list]]
+            class = "fab"
+            icon = "fa-youtube"
+            url = "https://https://www.youtube.com/channel/UC8ILs56i82yde8jc0A9TDzg?view_as=subscriber/"
+            title = "YouTube"
+
+    #Specify what is showin in the Accordion
+    [[params.showInAccordion]]
+        item = "aboutme"
+        expand = true   # true for the section that is initially expanded
+    [[params.showInAccordion]]
+        item = "experience"
+    [[params.showInAccordion]]
+        item = "education"
+    [[params.showInAccordion]]
+        item = "publication"
+    [[params.showInAccordion]]
+        item = "project"
+    [[params.showInAccordion]]
+        item = "skill"
+    [[params.showInAccordion]]
+        item = "hobby"
+
+    [params.aboutme]
+        title = "About Me"
+        icon = "fas fa-user"
+        description = "I am an economist pursuing an MSc degree at [University of Brasilia (UnB)](https://unb.br). My research interests include Macroeconomics, Urban Economics and Public Policy. I am currently a Research Assistant at [IPEA](https://www.ipea.gov.br/portal/), working on urban accessibility in Brazil at the [Access to Opportunities Project](https://www.ipea.gov.br/acessooportunidades/en/). Also, I am an amateur marathoner and triathlete, and [#RStats](https://twitter.com/hashtag/rstats?lang=en) enthusiast."
+
+    # Experience section
+    [params.experience]
+        title = "Experiences"
+        icon = "fas fa-briefcase"
+
+        [[params.experience.list]]
+            position = "Research Assistant"
+            dates = "May 2020 - Present"
+            link = "https://www.ipea.gov.br/portal/"
+            company = "Institute of Applied Economics Research (IPEA)"
+            details = "I am part of the [Access to Opportunities Project](https://www.ipea.gov.br/acessooportunidades/en/), focusing on urban mobility and inequality in major Brazilian cities. Funded by the National Council for Scientific and Technological Development (CNPq) and Ministry of Science, Technology, Innovation, and Communication (MCTIC)."
+        [[params.experience.list]]
+            position = "Market Intelligence Analyst"
+            dates = "Aug 2018 - Aug 2019"
+            link = "https://www.intlfcstone.com/"
+            company = "INTL FCStone"
+            details = "Research and consulting activities regarding the Brazilian agricultural commodities market, mainly grains and oilseeds."
+        [[params.experience.list]]
+            position = "Teaching Assistant"
+            dates = "Aug 2018 - Dec 2018"
+            link = "https://www.eco.unicamp.br/"
+            company = "Institute of Economics - Unicamp"
+            details = "Teaching assistant of professor Roberto Borghi (Ph.D., Cambridge University) in Public Economics at University of Campinas."
+         [[params.experience.list]]
+            position = "Young Delegate"
+            dates = "Sep 2017"
+            link = "https://meetings.imf.org/en/2020/Annual/"
+            company = "IMF & WBG Annual Meetings - Washington, D.C."
+            details = "Member of the Brazilian Young Delegation at the IMF and World Bank Annual Meetings, Washington D.C., U.S."
+
+    # Education section
+    [params.education]
+        title = "Education"
+        icon = "fas fa-graduation-cap"
+
+        [[params.education.list]]
+            degree = "M.Sc. in Economics"
+            college = "University of Brasilia"
+            dates = "2020 - 2021"
+            thesis_title = "*In progress*"
+            thesis_link = "#"
+        [[params.education.list]]
+            degree = "B.Sc. in Economics"
+            college = "University of Campinas"
+            dates = "2015 - 2019"
+        [[params.education.list]]
+            degree = "Visiting Student"
+            college = "Technical University of Munich"
+            dates = "Mar 2018 - Aug 2018"
+
+    # Publication section
+    [params.publication]
+        title = "Publications"
+        icon = "fas fa-book"
+        #The order below determines the order in which the items appear in "Publications" section
+        format = ["date", "authors", "title", "journal"]
+        #If you don't want to group publications, comment the line below by adding # at the beginning
+        types = ["Journal Articles", "Proceedings"]
+
+        [[params.publication.list]]
+            title = ""
+            authors = ""
+            date = ""
+            journal = ""
+            link = "#"
+            type = "Journal Articles"
+
+        [[params.publication.list]]
+            title = ""
+            authors = ""
+            date = ""
+            journal = ""
+            link = "#"
+            type = "Proceedings"
+
+    # Project section
+    [params.project]
+        title = "Projects"
+        icon = "fas fa-project-diagram"
+
+        [[params.project.list]]
+            title = "project"
+            url = "#"
+            description = "Description of the project"
+        [[params.project.list]]
+            title = "project"
+            url = "#"
+            description = "Description of the project"
+        [[params.project.list]]
+            title = "project"
+            url = "#"
+            description = "Description of the project"
+        [[params.project.list]]
+            title = "project"
+            url = "#"
+            description = "Description of the project"            
+
+    # Skill section
+    [params.skill]
+        title = "Skills"
+        panelId = "skill-panel"
+        icon = "fas fa-cogs"
+
+        [[params.skill.list]]
+            skill = "Portuguese, English"
+            skillrating = 100
+        [[params.skill.list]]
+            skill = "German, French, Spanish"
+            skillrating = 60
+        [[params.skill.list]]
+            skill = "R and Stata"
+            skillrating = 70
+
+    # Hobby section
+    [params.hobby]
+        title = "Hobbies"
+        icon = "fas fa-gamepad"
+		
+        [[params.hobby.list]]		
+		    hobby = "Running, Swimming and Cycling"
+        [[params.hobby.list]]		
+		    hobby = "Cooking"
+        [[params.hobby.list]]		
+		    hobby = "Music"
